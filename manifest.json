@@ -1,0 +1,38 @@
+{
+  "format_version": 3,
+  "header": {
+    "description": "Traduzido por T3CL4D0 & M0US3P4D",
+    "name": "Tradutor para o Villager News",
+    "uuid": "ad9eef33-0ddc-43c6-baf1-d9624ca4191d",
+    "version": "1.0.4",
+    "min_engine_version": "1.26.10",
+    "pack_scope": "world"
+  },
+
+  "modules": [
+    {
+      "description": "Traduzido por T3CL4D0 & M0US3P4D",
+      "type": "data",
+      "uuid": "b05338ea-bee3-4a42-a2d5-baa3db53d5ba",
+      "version": "1.0.4"
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "version": "1.0.0",
+      "uuid": "cb151cab-ac3a-47c8-a6b8-0113fc037801",
+      "entry": "scripts/oreville/ebi.js"
+    }
+  ],
+
+  "metadata": {
+    "authors": ["T3CL4D0 & M0US3P4D"],
+    "product_type": "addon"
+  },
+
+  "dependencies": [
+    { "uuid": "d5546ac9-2689-4a41-8674-cac4b8b05535", "version": "1.0.4" },
+    { "module_name": "@minecraft/server", "version": "2.6.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.1.0" }
+  ]
+}
